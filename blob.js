@@ -8,7 +8,7 @@ class Blob {
     this.xSpeed = random(2, 5) * Math.cos(angle);
     this.ySpeed = random(2, 5) * Math.sin(angle);
 
-    this.r = random(100, 200);
+    this.r = random(50, 150);
   }
 
   update() {
