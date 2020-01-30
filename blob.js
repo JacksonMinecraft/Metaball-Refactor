@@ -15,11 +15,11 @@ class Blob {
     this.x += this.xSpeed;
     this.y += this.ySpeed;
 
-    if (this.x > 300) {
+    if (this.x > window.innerWidth) {
       this.xSpeed -= 1;
     } if (this.x < 0) {
       this.xSpeed += 1;
-    } if (this.y > 300) {
+    } if (this.y > window.innerHeight) {
       this.ySpeed -= 1;
     } if (this.y < 0) {
       this.ySpeed += 1;
