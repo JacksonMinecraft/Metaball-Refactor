@@ -15,7 +15,7 @@ function keyPressed() {
       blobs.splice(arr, 1, new Blob(random(0, window.innerWidth), random(0, window.innerHeight)));
       h.splice(arr, 1, random(0, 360));
       arr++;
-      if (arr === 10) {
+      if (arr === 25) {
         arr = 0;
       }
     } else {
